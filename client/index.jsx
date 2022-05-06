@@ -158,7 +158,7 @@ function LoginGoogle() {
     const query = new URLSearchParams({
       response_type: "token",
       scope: "openid profile email",
-      client_id: process.env.CLIENT_GOOGLE_ID,
+      client_id: "832683589428-26rrluruusok5qhoj6v6s2t2l7ihqtf9.apps.googleusercontent.com",
       // Tell user to come back to http://localhost:3000/callback when logged in
       redirect_uri: window.location.origin + "/login/callback/google",
     });
